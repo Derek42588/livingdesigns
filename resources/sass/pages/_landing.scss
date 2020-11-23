@@ -1,0 +1,101 @@
+#home {
+    background: url(../../images/dadBg1.jpg);
+    min-height:400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    .dark-overlay {
+
+    }
+}
+.picThumbnail {
+    height: 400px;
+    width: 100%;
+}
+.landing-lead {
+    color: white;
+    font-size: 3rem;
+
+
+    @include respond(bpSmall) {
+        font-size: 2.75rem;
+    }
+
+    @include respond(phone) {
+        font-size: 2.5rem;
+    }
+    @include respond(micro) {
+        font-size: 2.25rem;
+    }
+    @include respond(nano) {
+        font-size: 2rem;
+    }
+}
+.landing-quote {
+    background:rgba(0, 0, 0, 0.2)
+}
+.carousel-footer {
+    background:rgba(0, 0, 0, 0.6)
+}
+.carousel-image {
+    background-size: cover;
+}
+.cta-buttons {
+
+}
+
+#about {
+    background: $color-secondary;
+    min-height: 200px;
+
+    //@include respond(bpSmall) {
+    //    min-height: 250px;
+    //}
+    //
+    //@include respond(phone) {
+    //    min-height: 300px;
+    //}
+    //@include respond(micro) {
+    //    min-height: 350px;
+    //}
+    //
+    //@include respond(nano) {
+    //    min-height: 400px;
+    //}
+}
+
+.testimonialContainer{
+    height: 200px;
+
+    .row {
+        height: 100%;
+    }
+
+
+}
+
+.testimonial-lead {
+    color: white;
+    font-size: 3rem;
+}
+
+.testimonial-footer{
+    color: white;
+    font-size: 1.75rem;
+}
+
+#blogShowcase {
+    background: $color-primary;
+}
+
+#gallery {
+    background: $color-tertiary;
+}
+//.carousel-control.left,
+//.carousel-control.right {
+//    opacity: 0.5;
+//}
+
+#contact {
+    min-height: 500px;
+}

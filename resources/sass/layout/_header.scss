@@ -1,0 +1,15 @@
+.myNav {
+    background: $color-primary;
+
+    a {
+        color: white;
+
+        &:hover {
+            color: #54c6eb
+        }
+    }
+}
+
+.customActive {
+    color: white;
+}

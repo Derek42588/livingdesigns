@@ -1,0 +1,30 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Mixins
+
+@import 'mixins';
+
+// Bootstrap -- I'm getting confused as to where this should be imported...
+// I think before the overrides, but it seems thats not the case some of the time?
+
+// look into it more
+
+@import '~bootstrap/scss/bootstrap';
+
+// Variables
+@import 'variables';
+
+// Bootstrap Overrides -- this is not for bootstrap variables, but classes (navbar, etc).  Put variable overrides in _variables
+@import 'bootstrap-overrides';
+
+
+// Layout
+@import 'layout/base';
+@import 'layout/footer';
+@import 'layout/header';
+
+
+// Pages
+@import 'pages/landing';
+@import 'pages/blog/blog';
